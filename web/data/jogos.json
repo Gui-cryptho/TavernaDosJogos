@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Xadrez",
+    "preco": 20.0,
+    "categoria": "tabuleiro"
+  },
+  {
+    "id": 2,
+    "nome": "Baralho",
+    "preco": 10.0,
+    "categoria": "cartas"
+  },
+  {
+    "id": 3,
+    "nome": "Dama",
+    "preco": 15.0,
+    "categoria": "tabuleiro"
+  }
+]

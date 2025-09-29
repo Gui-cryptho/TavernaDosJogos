@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Refrigerante Cola",
+    "preco": 5.5,
+    "tipo": "não alcoólica",
+    "url": "image/cocacola.png"
+  },
+  {
+    "id": 2,
+    "nome": "Suco de Laranja",
+    "preco": 7.0,
+    "tipo": "não alcoólica",
+    "url": "image/orange_juice.png"
+  },
+  {
+    "id": 3,
+    "nome": "Cerveja Kaiser",
+    "preco": 9.5,
+    "tipo": "alcoólica",
+    "url": "image/beer.png"
+  }
+]

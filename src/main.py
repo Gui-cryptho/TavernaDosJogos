@@ -1,6 +1,7 @@
 import http.server
 import socketserver
 import os
+import json
 
 # Define a porta na qual o servidor irá rodar
 PORT = 8000
