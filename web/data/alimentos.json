@@ -4,20 +4,13 @@
     "nome": "Hambúrguer",
     "preco": 15.9,
     "descricao": "Delicioso hambúrguer com queijo, alface e tomate",
-    "url": ""
+    "imagem": "image/hamburguer.png"
   },
   {
     "id": 2,
     "nome": "Pizza",
     "preco": 25.5,
     "descricao": "Pizza de mussarela com borda recheada de catupiry",
-    "url": ""
-  },
-  {
-    "id": 3,
-    "nome": "Salada Caesar",
-    "preco": 18.0,
-    "descricao": "Salada fresca com alface, frango grelhado e molho Caesar",
-    "url": ""
+    "imagem": "image/pizza.png"
   }
 ]

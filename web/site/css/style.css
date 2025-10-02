@@ -28,7 +28,7 @@ body::before {
 header {
   background: linear-gradient(to bottom, #0b1c2c, #1a1a2e);
   color: #f0f0f0;
-  padding: 20px 5%;
+  padding: 10px 3%;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
@@ -83,7 +83,7 @@ footer {
   ); /* mesma paleta invertida */
   color: #f0f0f0;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   width: 100%;
 }
 

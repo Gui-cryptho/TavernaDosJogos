@@ -3,18 +3,16 @@
     "id": 1,
     "nome": "Xadrez",
     "preco": 20.0,
-    "categoria": "tabuleiro"
+    "categoria": "tabuleiro",
+    "imagem": "image/chess.png",
+    "descricao": "O clássico jogo de estratégia para duas pessoas."
   },
   {
     "id": 2,
     "nome": "Baralho",
     "preco": 10.0,
-    "categoria": "cartas"
-  },
-  {
-    "id": 3,
-    "nome": "Dama",
-    "preco": 15.0,
-    "categoria": "tabuleiro"
+    "categoria": "cartas",
+    "imagem": "image/dama.png",
+    "descricao": "Um baralho completo para diversos jogos de cartas."
   }
 ]

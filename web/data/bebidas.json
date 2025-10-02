@@ -4,20 +4,23 @@
     "nome": "Refrigerante Cola",
     "preco": 5.5,
     "tipo": "não alcoólica",
-    "url": "image/cocacola.png"
+    "imagem": "image/cocacola.png",
+    "descricao": "Clássico e refrescante, para todos os momentos."
   },
   {
     "id": 2,
     "nome": "Suco de Laranja",
     "preco": 7.0,
     "tipo": "não alcoólica",
-    "url": "image/orange_juice.png"
+    "imagem": "image/orange_juice.png",
+    "descricao": "Natural, feito com laranjas frescas."
   },
   {
     "id": 3,
     "nome": "Cerveja Kaiser",
     "preco": 9.5,
     "tipo": "alcoólica",
-    "url": "image/beer.png"
+    "imagem": "image/beer.png",
+    "descricao": "Uma cerveja pilsen leve e com sabor marcante."
   }
 ]
