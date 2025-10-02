@@ -20,7 +20,7 @@
     "nome": "Cerveja Kaiser",
     "preco": 9.5,
     "tipo": "alcoólica",
-    "imagem": "image/beer.png",
+    "imagem": "image/cerveja.png",
     "descricao": "Uma cerveja pilsen leve e com sabor marcante."
   }
 ]
