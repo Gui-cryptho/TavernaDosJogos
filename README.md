@@ -28,25 +28,33 @@ O projeto está organizado da seguinte forma:
 
 ```
 .
-├── documents/              # Documentos e imagens do projeto
-├── src/                    # Código fonte da aplicação
-│   └── main.py             # Servidor web em Python
-└── web/                    # Arquivos do site
-    ├── data/               # Arquivos JSON com os dados dos cardápios
-    │   ├── alimentos.json
-    │   ├── bebidas.json
-    │   └── jogos.json
-    ├── site/               # Arquivos públicos do site
-    │   ├── index.html      # Página principal
+├── documents/                    # Documentos e imagens do projeto
+│   └── Capturas de tela/        # Capturas de tela do projeto
+├── src/                         # Código fonte da aplicação
+│   └── main.py                  # Servidor web em Python
+└── web/                         # Arquivos do site
+    ├── data/                    # Arquivos JSON com os dados dos cardápios
+    │   ├── alimentos.json       # Dados dos alimentos
+    │   ├── bebidas.json        # Dados das bebidas
+    │   └── jogos.json          # Dados dos jogos disponíveis
+    ├── site/                    # Arquivos públicos do site
+    │   ├── index.html          # Página principal com carrossel
+    │   ├── jogos.html          # Página de jogos disponíveis
+    │   ├── cardapio.html       # Página do cardápio de alimentos e bebidas
     │   ├── css/
-    │   │   └── style.css   # Folha de estilos
-    │   ├── image/
-    │   │   └── table-lamp.png # Imagens
+    │   │   └── style.css       # Estilos do site (responsivo)
+    │   ├── image/              # Imagens do site
+    │   │   ├── knight.png      # Favicon do site
+    │   │   ├── king.png        # Imagem do carrossel
+    │   │   ├── cerveja.png     # Imagem do carrossel
+    │   │   ├── hamburguer.png  # Imagem do carrossel
+    │   │   ├── pizza.png       # Imagem do carrossel
+    │   │   └── table-lamp.png  # Imagem padrão
     │   └── js/
-    │       └── script.js   # Scripts JavaScript
-    └── template/           # Templates HTML
-        ├── template_cardapio.html
-        └── template_item.html
+    │       └── carousel.js     # Script do carrossel de imagens
+    └── template/               # Templates HTML para geração dinâmica
+        ├── template_cardapio.html  # Template base do cardápio
+        └── template_item.html      # Template para itens individuais
 ```
 
 ## Tecnologias Utilizadas
