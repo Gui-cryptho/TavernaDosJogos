@@ -42,7 +42,34 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=STATIC_DIR, **kwargs)
 
+    def guess_type(self, path):
+        """Sobrescreve o método guess_type para garantir o tipo MIME correto para arquivos JS"""
+        if path.endswith('.js'):
+            return 'application/javascript'
+        return super().guess_type(path)
+
     def do_GET(self):
+        # Log para debug
+        print(f"Requisição recebida para: {self.path}")
+        
+        # Se for uma requisição para um arquivo JavaScript
+        if self.path.endswith('.js'):
+            try:
+                # Constrói o caminho completo para o arquivo
+                file_path = os.path.join(STATIC_DIR, self.path.lstrip('/'))
+                print(f"Tentando servir arquivo JS: {file_path}")
+                
+                with open(file_path, 'rb') as f:
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/javascript')
+                    self.end_headers()
+                    self.wfile.write(f.read())
+                return
+            except Exception as e:
+                print(f"Erro ao servir arquivo JS: {e}")
+                self.send_error(404, f"Arquivo não encontrado: {self.path}")
+                return
+
         item_template_path = os.path.join(WEB_DIR, 'template', 'template_item.html')
 
         try:
